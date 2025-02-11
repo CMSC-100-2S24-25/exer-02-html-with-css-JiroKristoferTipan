@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        background-color: rgb(201, 201, 201);
+      }
+
+      .item-row {
+        flex-wrap: wrap;
+        font-size: 12px;
+        text-align: left;
+        flex-direction: row;
+      }
+
+      .item-col {
+        flex: 1 1 100%;
+        font-size: 12px;
+        text-align: left;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: rgba(0, 68, 255, 0.377);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div
+        class="item-col"
+        ,
+        style="
+          font-size: 50px;
+          text-align: center;
+          background-color: rgb(0, 0, 61);
+          color: rgb(255, 255, 255);
+        "
+      >
+        Jiro Kristofer Tipan
+      </div>
+      <div class="item-row">
+        <p>face.png</p>
+        <p style="font-size: 25px">my face</p>
+      </div>
+      <div class="item-row">
+        <p style="font-size: 25px">autobiography:</p>
+        <p>
+          skfdgbviudzsfbysdfygskdfgdhfgkfgkhsdfgkjhdfgkjhdfgksfghk PLACEHOLDER
+        </p>
+      </div>
+      <div class="item-col">
+        <p style="font-size: 25px; text-align: center">my skills:</p>
+        <p>one two threeeeeeee PLACEHOLDER</p>
+      </div>
+    </div>
+  </body>
+</html>
